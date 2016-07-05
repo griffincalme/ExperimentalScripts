@@ -21,4 +21,4 @@ Use E to encrypt, D to decrypt. Make sure to type the complete file path. Howeve
 
 #CoinFlip.py
 
-returns heads or tails with equal probability when the function is called
+Returns heads or tails with equal probability when the function is called
