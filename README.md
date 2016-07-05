@@ -1,5 +1,5 @@
 # ExperimentalScripts
-Some things I've written to solve little problems or out of curiosity
+Some things I've written to solve problems or satisfy curiosity
 
 -----
 
