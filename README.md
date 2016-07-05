@@ -3,7 +3,7 @@ Some things I've written to solve little problems or out of curiosity
 
 -----
 
-FileEncryptor.py
+#FileEncryptor.py
 
 Terminal/cmd file encryptor (AES)
 
