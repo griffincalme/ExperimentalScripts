@@ -1,6 +1,9 @@
 #Program runs a Monte Carlo simulation to determine the probability that at least one child will be a girl
 
 import random
+import matplotlib.pyplot as plt
+from matplotlib import style
+import numpy as np
 
 
 def CoinFlip():
@@ -59,11 +62,22 @@ def MonteCarloKids(numTrials=100, numKids=3):
 
     for k in powerTens:
         k = int(k)
-        print('Trial is ' + str(k) + ' probability is ' + str(probabilityList[k - 1]))
+        print('Trial: ' + str(k) + ', estimated probability: ' + str(probabilityList[k - 1]))
 
 
     print('------')
     print('Odds of having at least one boy are: ' + str(numberWithGirl / numTrials))
 
+
+
+    plt.semilogx(list(range(numTrials)), probabilityList)
+    plt.title('Probility of having at least 1 girl')
+    plt.grid(True)
+    plt.ylabel('estimated probability')
+    plt.xlabel('simulation number')
+    plt.ylim(ymin=0, ymax=1.5)
+    plt.show()
+
+
 #(number of trials, number of kids planned for one generation)
-MonteCarloKids(100000000, 3)
+MonteCarloKids(1000000, 3)
