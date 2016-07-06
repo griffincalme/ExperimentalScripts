@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 import numpy as np
 
+plt.style.use('ggplot')
 
 def CoinFlip():
     randNumber = random.randint(0,1)
