@@ -3,6 +3,12 @@ Some things I've written to solve problems or satisfy curiosity
 
 -----
 
+#NucleiClusterSegmentation
+A StackOverflow answer I wrote to solve a problem of clustering and segmenting groups of bunched cell nuclei
+
+http://stackoverflow.com/questions/38271928/imaging-processing-clustering-cells-into-groups-in-fly-embryos-images/38839674#38839674
+-----
+
 #FileEncryptor.py
 
 Terminal/cmd file encryptor (AES)
