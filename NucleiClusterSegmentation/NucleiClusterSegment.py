@@ -10,7 +10,7 @@ from scipy.ndimage.filters import gaussian_filter
 
 
 #change to your directory
-image = imread(r'C:\Users\YourNameHere\Downloads\mge1v.png')
+image = imread(r'C:\Users\YourNameHere\Downloads\ExperimentalScripts\NucleiClusterSegmentation\mge1v.png')
 grey_image = rgb2grey(image)
 blurred = gaussian_filter(grey_image, sigma=6) #play with sigma for blur amount
 
