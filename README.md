@@ -2,6 +2,13 @@
 Some things I've written to solve problems or satisfy curiosity
 
 -----
+#AccessIDscrape
+
+A script that I used to find everyone in my PharmD class's school ID from my university's directory.
+Works pretty good, except for the people who haven't updated their program designation to say "Doctor of Pharmacy"
+Also it accidentally grabs the people's names from other class years that unfortuitously 1)Return as a hit from the search AND 2)Also happen to be in to be in the pharmacy program.
+
+-----
 
 #NucleiClusterSegmentation
 A StackOverflow answer I wrote to solve a problem of clustering and segmenting groups of bunched cell nuclei
