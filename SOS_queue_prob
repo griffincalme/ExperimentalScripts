@@ -1,0 +1,30 @@
+#I was waiting in line at the secretary of state. The staff call out the last 4 digits of your phone number when it is your turn.
+#There are currently 40 people in line. 
+#What is the probability that, when a number is called, two or more people will have the same number?
+#Assuming that each number has an equal probability.
+#This runs a monte carlo simulation because I am lazy and my computer is not.
+
+
+import random
+
+def rollnumber(times):
+   list = []
+   for x in range(0,times):
+       list.append(random.randint(0,9999))
+   return list
+
+def check_same_number(list):
+    truth = len(list) != len(set(list))
+    return truth
+
+truth_list = []
+
+while True:
+    roll = rollnumber(40)
+    #print(roll)
+    same_num = check_same_number(roll)
+    #print(same_num)
+    truth_list.append(same_num)
+    #print(sum(truth_list))
+    print(sum(truth_list)/len(truth_list))
+
