@@ -7,9 +7,9 @@
 
 import random
 
-def rollnumber(times):
+def rollnumber(times_to_roll):
    list = []
-   for x in range(0,times):
+   for x in range(0,times_to_roll):
        list.append(random.randint(0,9999))
    return list
 
@@ -32,6 +32,7 @@ while True:
     same_num = check_for_copy_of_first(roll)
     truth_list.append(same_num)
     print(sum(truth_list)/len(truth_list))
+
 
 
 #I was wrong, the first function was the prob that any 2 ppl
