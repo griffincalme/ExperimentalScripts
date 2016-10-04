@@ -2,6 +2,15 @@
 Some things I've written to solve problems or satisfy curiosity
 
 -----
+#SOS_queue_prob
+
+I was waiting in line at the secretary of state. The staff call out the last 4 digits of your phone number when it is your turn.
+There are currently 40 people in line. 
+What is the probability that, when a number is called, two or more people will have the same number?
+Assuming that each number has an equal probability.
+This runs a monte carlo simulation because I am lazy and my computer is not.
+
+-----
 #AccessIDscrape
 
 A script that I wrote to find everyone in my PharmD class's school ID from my university's directory.
