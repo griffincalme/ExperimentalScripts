@@ -2,7 +2,7 @@
 Some things I've written to solve problems or satisfy curiosity
 
 -----
-#SOS_queue_prob
+#SOS_queue_prob.py
 
 I was waiting in line at the secretary of state. The staff call out the last 4 digits of your phone number when it is your turn.
 There are currently 40 people in line. 
