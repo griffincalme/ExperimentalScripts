@@ -4,7 +4,7 @@ Some things I've written to solve problems or satisfy curiosity
 -----
 #SOSprobGraph.py
 
-Same as below, except it just runs for 100,000 iterations and outputs a graph.
+Same as below, except it just runs for 100,000 iterations and outputs a graph. Oh and it runs about 11x faster.
 ![SOSprobGraph](images/SOSprobGraph.png)
 
 -----
