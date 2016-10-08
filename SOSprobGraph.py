@@ -17,20 +17,19 @@ def rollnumber(times_to_roll):
        list.append(random.randint(0,9999))
    return list
 
-
 def check_for_copy_of_first(list):
     first = list[0]
     truth = first in list[1:]
     return truth
 
-truth_list = []
+truth_sum = 0
 prob_list = []
 
-for i in range(0,500000):
+for i in range(1,1000001):
     roll = rollnumber(40)
     same_num = check_for_copy_of_first(roll)
-    truth_list.append(same_num)
-    prob = sum(truth_list)/len(truth_list)
+    truth_sum = truth_sum + same_num
+    prob = truth_sum/i
     prob_list.append(prob)
     if i % 5000 == 0:
         print(' ')
@@ -39,6 +38,7 @@ for i in range(0,500000):
 
 end = time.clock()
 print('took ' + str(end) + ' seconds')
+
 
 plt.xkcd()
 plt.plot(prob_list)
