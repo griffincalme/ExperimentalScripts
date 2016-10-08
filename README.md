@@ -2,6 +2,12 @@
 Some things I've written to solve problems or satisfy curiosity
 
 -----
+#SOSprobGraph.py
+
+Same as below, except it just runs for 100,000 iterations and outputs a graph.
+![SOSprobGraph](images/SOSprobGraph.png)
+
+-----
 #SOS_queue_prob.py
 
 I was waiting in line at the secretary of state. The staff call out the last 4 digits of your phone number when it is your turn.
