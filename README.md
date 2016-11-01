@@ -7,6 +7,7 @@ Some things I've written to solve problems or satisfy curiosity
 An assignement in my drug literature class required us to graph kaplan meier curves for two groups of patients.
 I did it in python using the lifelines library.
 I just removed the censored patients because I didn't have time to handle them in the graph.
+![KaplanMeierGraph](KaplanMeierDrugLitAssigment/KapMeierGraph.png)
 
 -----
 #SOSprobGraph.py
