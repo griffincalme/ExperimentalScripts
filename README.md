@@ -2,6 +2,12 @@
 Some things I've written to solve problems or satisfy curiosity
 
 -----
+#KaplanMeierDrugLitAssignment
+
+An assignement in my drug literature class required us to graph kaplan meier curves for two groups of patients.
+I did it in python using the lifelines library.
+I just removed the censored patients because I didn't have time to handle them in the graph.
+-----
 #SOSprobGraph.py
 
 Same as below, except it just runs for 100,000 iterations and outputs a graph. Oh and the loop runs about 11x faster.
