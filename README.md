@@ -75,3 +75,10 @@ Basically, it validates 1 - (Pr * n)
 
 A thing that sort of decodes messages where each word is reversed and spaces are removed.
 Sort of esoteric, and only works on linux only since it requires /usr/share/dict/words for a dictionary, though I suppose you could substitute your own.
+
+-----
+
+## bubblesort.py
+
+A crummy implementation of bubblesort, for the fun of it!
+Generates a series of numbers, shuffles them, then sorts back into the original order using a homemade implementation of bubble sort.
