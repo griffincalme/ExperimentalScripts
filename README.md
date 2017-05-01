@@ -82,3 +82,12 @@ Sort of esoteric, and only works on linux only since it requires /usr/share/dict
 
 A crummy implementation of bubblesort, for the fun of it!
 Generates a series of numbers, shuffles them, then sorts back into the original order using a homemade implementation of bubble sort.
+
+
+
+-----
+
+## graphing_order_rates.py
+
+I was learning some pharmacokinetics in lecture and I wanted to graph some stuff in matplotlib to better visualize zero-order (ZO) metabolism vs first-order (FO). Because Python!!!
+![order_rates](graphing_order_rates.png)
