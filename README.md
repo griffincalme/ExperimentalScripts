@@ -64,8 +64,8 @@ Returns heads or tails with equal probability when the function is called
 
 ## MonteCarloChildren.py
 
-Runs a Monte Carlo simulation to determine the probability that at least one child will be a girl.
-The function accepts numbers of simulation runs and the number of children you plan on having.
+Runs a Monte Carlo simulation to determine the probability that at least one of your children will be a girl.
+The function accepts number of simulation runs and the number of children you plan on having.
 
 Basically, it validates 1 - (Pr * n)
 
@@ -74,7 +74,7 @@ Basically, it validates 1 - (Pr * n)
 ## reverse_word_cipher.py
 
 A thing that sort of decodes messages where each word is reversed and spaces are removed.
-Sort of esoteric, and only works on linux only since it requires /usr/share/dict/words for a dictionary, though I suppose you could substitute your own.
+Sort of esoteric, and only works on linux only since it requires `/usr/share/dict/words` for a dictionary, though I suppose you could substitute your own.
 
 -----
 
